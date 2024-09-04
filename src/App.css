@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+.hero {
+  background: url('https://as2.ftcdn.net/v2/jpg/07/86/39/67/1000_F_786396709_t3vMZsCDo6HyyatCrEdgwIWQhePnJgqH.jpg')  center center;
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
 }
+ /* .all{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ } */
+.hero {
+  background-image: url("https://as2.ftcdn.net/v2/jpg/07/86/39/67/1000_F_786396709_t3vMZsCDo6HyyatCrEdgwIWQhePnJgqH.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 550px; 
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  
+  background-color: #343a40;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact{
+  /* background: url('https://images.websitebuilderexpert.com/wp-content/uploads/2023/02/13045442/Contact-Us-Page-Examples.jpg') center center; */
+  background-size: cover;
+ 
+  padding: 100px 0;
+  background-color: #F1F1F1;
 }
